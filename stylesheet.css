@@ -1,6 +1,11 @@
 <style>
     body {
     }
+    .navigation{
+        font-family: 'Helvetica', sans-serif;
+        font-size:14px;
+        font-weight:bold;
+    }
     ul.nav {
         list-style-type: none;
         margin: 0;
@@ -94,9 +99,22 @@
         font-weight:bold;
     }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 700px) {
     body {
         background-color: lightgray;
+        width:80%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: white;
+        width:80%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    body {
+        background-color: white;
+        width:85%;
     }
 }
 </style>
