@@ -1,0 +1,102 @@
+<style>
+    body {
+    }
+    ul.nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: gray;
+    }
+    ul.nav li {
+        float: left;
+    }
+    ul.nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    ul.nav li a:hover:not(.active) {
+        color:black;
+    }
+    ul.nav li a.active {
+        background-color: black;
+;
+    }
+    ul.nav li.right {
+        float: left;
+    }
+    img {
+        width: 100%;
+        height:auto;
+        margin-bottom: 15px;
+    }
+    .header {
+        background-color:green;
+        border-bottom: 1px solid gray;
+        padding: 25px;
+        font-family: 'Helvetica', sans-serif;
+        margin-top:25px;
+    }
+    h1{
+        font-family: 'Helvetica', sans-serif;
+        font-size:32px;
+        color:gray;
+        font-weight:bolder;
+        margin-bottom: 30px;
+    }
+    h2 {
+        font-family: 'Helvetica', sans-serif;
+        font-size:16px;
+        color:green;
+    }
+    .article {
+        display: inline-block;
+        width:300px;
+        height:400px;
+        margin-top:20px;
+        margin-right:auto;
+        margin-left:auto;
+        padding: 70px;
+    }
+    .article-summary {
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding:30px;
+    }
+    h3{
+        font-family: 'Helvetica', sans-serif;
+        font-size:14px;
+        color:gray;
+    }
+    h4{
+        font-family: 'Helvetica', sans-serif;
+        font-size:16x;
+        color:green;
+    }
+    span{
+        font-family: 'Helvetica', sans-serif;
+        font-size:18px;
+    }
+    p{
+        font-family: 'Helvetica', sans-serif;
+        font-size: 12px;
+        color:black;
+    }
+    .footer{
+        margin-top:100px;
+        border-top: 2px solid green;
+        font-family: 'Helvetica' sans-serif;
+        font-size: 18px;
+        color: black;
+        font-weight:bold;
+    }
+
+@media screen and (min-width: 300px) {
+    body {
+        background-color: lightgray;
+    }
+}
+</style>
